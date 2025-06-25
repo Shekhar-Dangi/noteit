@@ -378,6 +378,23 @@ header {
   transform: scale(1.08);
 }
 
+.note-read-only {
+  outline: none;
+}
+
+.voice-btn {
+  padding: 0.25rem;
+  width: 40px;
+  align-self: flex-end;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+.voice-btn img {
+  width: 30px;
+}
+
 @media (max-width: 600px) {
   .note-actions button {
     width: 2rem;
