@@ -35,14 +35,22 @@
         <h3 class="header-title">NoteIt</h3>
       </div>
       <div class="header-right">
-        <input class="input-search" type="text" />
+        <div class="search-combo">
+          <input placeholder="search here" class="input-search" type="text" />
+          <img
+            id="search-ico"
+            class="search-icon"
+            src="assets/images/search.svg"
+            alt=""
+          />
+        </div>
         <img class="pfp" src="assets/images/pfp.jpeg" alt="profile picture" />
       </div>
     </header>
 
-    <div class="container top-search">
+    <!-- <div class="container top-search">
       <input type="text" class="input-search" />
-    </div>
+    </div> -->
 
     <main class="container">
       <section id="pinned-notes">
@@ -107,8 +115,9 @@
     <script src="js/app.js"></script>
     <script src="js/storage.js"></script>
     <script src="js/ui.js"></script>
-
     <script src="js/speech.js"></script>
     <script src="js/utils.js"></script>
+    <script src="js/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
   </body>
 </html>
